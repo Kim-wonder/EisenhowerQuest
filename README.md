@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 아이젠하워 퀘스트 (Eisenhower Quest)
 
-## Getting Started
+게이미피케이션과 태스크 에이징 시스템이 결합된 혁신적인 아이젠하워 매트릭스 투두 리스트입니다.
 
-First, run the development server:
+## 🛠 기술 스택 (Tech Stack)
+- **프레임워크**: Next.js 14+ (App Router)
+- **UI/스타일**: Tailwind CSS, Glassmorphism Design
+- **인터랙션**: Framer Motion
+- **아이콘**: Lucide React
+- **스토리지**: 브라우저 LocalStorage (영구 보관)
+
+## ✨ 주요 특징
+- **게이미피케이션**: 할 일을 완료하고 XP를 획득하여 레벨업하는 재미를 느껴보세요.
+- **태스크 에이징**: 할 일을 미루면 시각적으로 '부패'하는 효과를 통해 직관적인 경각심을 줍니다.
+- **한국어 지원**: 모든 인터페이스와 안내가 한글로 제공됩니다.
+- **반응형 매트릭스**: 모바일에서도 2x2 그리드를 한눈에 확인할 수 있도록 최적화되었습니다.
+
+## ⌛ 태스크 에이징 (시범 환경)
+현재 시연을 위해 시간이 대폭 단축되어 있습니다:
+- **상태 변화**: 1분마다 Fresh → Warm → Heat Alert → Rotting 단계로 변화합니다.
+- **완료된 태스크**: 에이징 효과에서 제외되어 차분한 상태로 유지됩니다.
+
+## 🚀 시작하기
 
 ```bash
+# 종속성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인하세요.
